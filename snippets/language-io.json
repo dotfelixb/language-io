@@ -1,0 +1,74 @@
+{
+    ".source.io": {
+        "shebang": {
+            "prefix": "io",
+            "body": "#!/usr/bin/env io\n"
+        }
+    },
+    ".source.io": {
+        "if": {
+            "prefix": "if",
+            "body": "if(${1:condition}, ${2:ifTrue})"
+        },
+        "if else": {
+            "prefix": "ife",
+            "body": "if(${1:condition}, ${2:ifTrue}, ${3:ifFalse})"
+        },
+        "if else multi line": {
+            "prefix": "iff",
+            "body": "if(${1:condition}, \n\t${2:ifTrue},\n\t${3:ifFalse}\n)"
+        },
+        "while":{
+            "prefix": "while",
+            "body": "while(${1:condition}, \n\t$2\n)"
+        },
+        "while one line":{
+            "prefix": "wh",
+            "body": "while(${1:condition}, $2)"
+        },
+        "for": {
+            "prefix": "for",
+            "body": "for(${1:init}, ${2:start}, ${3:end}, ${4:body})$5"
+        },
+        "for with step": {
+            "prefix": "fors",
+            "body": "for(${1:init}, ${2:start}, ${3:end}, ${4:step}, \n\t${5:body}\n)"
+        },
+        "for multi line": {
+            "prefix": "form",
+            "body": "for(${1:init}, ${2:start}, ${3:end}, \n\t${4:body}\n)"
+        },
+        "print": {
+            "prefix": "pnt",
+            "body": "print"
+        },
+        "println": {
+            "prefix": "pntn",
+            "body": "println"
+        },
+        "method": {
+            "prefix": "met",
+            "body": "${1:slotName} := method(${2:body})"
+        },
+        "method with 1 args": {
+            "prefix": "met1",
+            "body": "${1:slotName} := method(${2:arg},\n\t$3\n)"
+        },
+        "method with 2 args": {
+            "prefix": "met2",
+            "body": "${1:slotName} := method(${2:arg}, ${3:arg},\n\t$4\n)"
+        },
+        "method with 3 args": {
+            "prefix": "met3",
+            "body": "${1:slotName} := method(${2:arg}, ${3:arg}, ${4:arg},\n\t$5\n)"
+        },
+        "do": {
+            "prefix": "do",
+            "body": "do(\n\t${1:body}\n)"
+        },
+        "do file": {
+            "prefix": "dof",
+            "body": "doFile(\"${1:file}\")$2"
+        }
+    }
+}

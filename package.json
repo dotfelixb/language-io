@@ -1,0 +1,21 @@
+{
+  "name": "language-io",
+  "main": "./lib/language-io",
+  "version": "0.1.0",
+  "description": "Io Language support for Atom.",
+  "activationCommands": {
+    "atom-workspace": "language-io:toggle"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/dotfelixb/language-io"
+  },
+  "homepage": "https://github.com/dotfelixb/language-io",
+  "_id": "language-io@20140919",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}
