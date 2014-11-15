@@ -1,7 +1,7 @@
 {
   "name": "language-io",
   "main": "./lib/language-io",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Io Language support for Atom.",
   "activationCommands": {
     "atom-workspace": "language-io:toggle"
