@@ -97,7 +97,11 @@
             "name": "keyword.operator.io"
         },
         {
-            "match": "\\b(Object|System|File|Sequence)\\b",
+            "match": "\\b(Actor|ActorRun|Addon|AsyncRequest|AVCodec|Beanstalk|BigNum|Blowfish|Box|Cairo|CFFI|CGI|CLI|Clutter|ContinueFraction|Curses|Date|DBI|Debugger|DistributedObjects|DynLib|EditLine|Error|Exception|Facebook|File|Flux|Fnmatch|Font|Future|FutureProxy|GLFW|GoogleSearch|HttpClient|Image|Importer|LibSndFile|Libxml2|List|Loki|Loudmouth|LZO)\\b",
+            "name": "support.class.io"
+        },
+        {
+            "match": "\\b(Map|MD5|Memcached|Message|MySQL|NetworkAdapter|NotificationCenter|Notifier|NullAddon|Number|Oauth|ObjcBridge|Object|Obsidian|ODE|Ogg|OpenGL|OperatorTable|Path|PortAudio|Postgres|PostgresSQL|Profiler|Python|QDBM|Random|Range|Rational|ReadLine|Regex|SampleRateConverter|Sandbox|SecureSocket|Sequence|Serialize|SGML|SHA1|SkipDB|Socket|SoundTouch|SqlDatabase|SQLite|SQLite3|Syslog|System|SystemCall|TagDB|TagLib|Theora|Thread|TokyoCabinet|Twitter|UnitTest|User|UUID|Vector|VertexDB|Volcano|Vorbis|Yajl|Zlib)\\b",
             "name": "support.class.io"
         },
         {
@@ -109,7 +113,7 @@
             "name": "constant.language.boolean.false.io"
         },
         {
-            "match": "(?<!\\.)\\bnil(?!\\s*:)\\b",
+            "match": "(?<!\\.)\\b(nil|pi|e|inf|nan)(?!\\s*:)\\b",
             "name": "constant.language.nil.io"
         },
         {
